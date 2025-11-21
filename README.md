@@ -17,7 +17,7 @@ The subject simply asks us to recode basic libc functions that we will have the 
 
 ![result](<result/Screenshot from 2025-11-21 15-32-13.png>)
 
-Grade of 125/100 with the bonuses !
+Grade of 125/100 with the bonuses!
 
 ## Warning
 
