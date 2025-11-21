@@ -15,6 +15,10 @@ The subject simply asks us to recode basic libc functions that we will have the 
 
 ## Results
 
-![result](<Screenshot from 2025-11-21 15-32-13.png>)
+![result](<result/Screenshot from 2025-11-21 15-32-13.png>)
 
 Grade of 125/100 with the bonuses !
+
+## Warning
+
+If you are currently enrolled in the 42 program and working on this project, I advise you not to consult this repository and to follow the school's teaching methods by coding this project yourself without any help. 
