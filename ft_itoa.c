@@ -6,7 +6,7 @@
 /*   By: tigondra <tigondra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 16:52:38 by tigondra          #+#    #+#             */
-/*   Updated: 2025/11/13 17:34:08 by tigondra         ###   ########.fr       */
+/*   Updated: 2025/11/21 14:59:49 by tigondra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,12 +37,12 @@ char	*ft_itoa(int n)
 	char	*str;
 	long	x;
 
+	if (!str)
+		return (NULL);
 	x = n;
 	len = ft_len_int(x);
 	i = len - 1;
 	str = malloc(sizeof(char) * (len + 1));
-	if (!str)
-		return (NULL);
 	str[0] = '0';
 	if (x < 0)
 	{

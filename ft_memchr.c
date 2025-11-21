@@ -6,7 +6,7 @@
 /*   By: tigondra <tigondra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/12 19:45:18 by tigondra          #+#    #+#             */
-/*   Updated: 2025/11/12 20:50:07 by tigondra         ###   ########.fr       */
+/*   Updated: 2025/11/21 15:00:23 by tigondra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	str = s;
 	while (i < n)
 	{
-		if (str[i] == (char)c)
+		if (str[i] == c)
 			return ((void *)&s[i]);
 		i++;
 	}

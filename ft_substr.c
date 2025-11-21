@@ -6,7 +6,7 @@
 /*   By: tigondra <tigondra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/13 11:48:21 by tigondra          #+#    #+#             */
-/*   Updated: 2025/11/13 16:38:39 by tigondra         ###   ########.fr       */
+/*   Updated: 2025/11/21 15:01:50 by tigondra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,18 +39,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[i] = 0;
 	return (str);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	*str;
-	size_t	size;
-	char	*ret;
-
-		str = "";
-		size = 0;
-		ret = ft_substr(str, 0, size);
-		printf("%s", ret);
-}
-*/

@@ -6,7 +6,7 @@
 /*   By: tigondra <tigondra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/12 11:42:35 by tigondra          #+#    #+#             */
-/*   Updated: 2025/11/12 13:34:51 by tigondra         ###   ########.fr       */
+/*   Updated: 2025/11/21 15:01:38 by tigondra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	char *str;
-	str = "Hello World";
-	printf("len: %d\n", ft_strlen(str));
-}
-*/

@@ -63,11 +63,11 @@ all: $(NAME)
 
 bonus: .bonus_done
 
-.bonus_done: $(OBJ_BONUS) $(INC) Makefile
+.bonus_done: $(OBJ_BONUS) $(INC)
 	$(AR) $(NAME) $(OBJ_BONUS)
 	@touch .bonus_done
 
-$(NAME): $(OBJ) $(INC) Makefile
+$(NAME): $(OBJ) $(INC)
 	$(AR) $(NAME) $(OBJ)
 
 %.o: %.c
